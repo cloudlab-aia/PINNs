@@ -53,6 +53,8 @@ Install the updated versions of the packages to avoid depency problems.
 pip install torch numpy scipy matplotlib tqdm scipy
 ```
 
+The main programas ar armonic_oscillator_main and armonic_oscillator_advanced. In the first program, which is commented in depth, changing the conditions of the problems, that defines the type of oscillator you want to solve, you can obtain the expected result and save the image. In physics the conditions of the problems determine the problem itself. In the armonic_oscillator_advanced is only taken into account the forced oscillator. The other programms are POCs of other problems which can be examinated and proved too.
+
 ---
 
 📊 Data
