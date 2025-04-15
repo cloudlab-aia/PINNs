@@ -1,8 +1,6 @@
 <h1 aligh="center">Physics-Informed Neural Networks for the Harmonic Oscillator</h1>
 <p align="center">Physics-Informed Neural Networks for the Harmonic Oscillator</p>
 
-# Physics-Informed Neural Networks for the Harmonic Oscillator
-
 This repository contains hte code implementation of the PINN experiments performed inn the paper Physics-Informed Neural Networks for the Harmonic Oscillator.
 
 ## Contents
