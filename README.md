@@ -1,23 +1,15 @@
+<h1 aligh="center">Physics-Informed Neural Networks for the Harmonic Oscillator</h1>
+<p align="center">Physics-Informed Neural Networks for the Harmonic Oscillator</p>
+
 # Physics-Informed Neural Networks for the Harmonic Oscillator
 
 This repository contains hte code implementation of the PINN experiments performed inn the paper Physics-Informed Neural Networks for the Harmonic Oscillator.
 
----
+## Contents
+The repository consists of scripts made in python to solve differential equations using PINNs. Armonic Oscillator has been solved in different use cases. The different scripts are used to solve different type of oscillators. Each script is properly commented to follow the steps to solve the equations and to get started in the PINNs world. The main scripts are armonic_oscillator_main and armonic_oscillator_advanced. In the first program, which is commented in depth, changing the conditions of the problems, that defines the type of oscillator you want to solve, you can obtain the expected result and save the image. In physics the conditions of the problems determine the problem itself. In the armonic_oscillator_advanced is only taken into account the forced oscillator. The other programms are POCs of other problems which can be examinated and proved too.
 
-## 📑 Contents
-
-- [Requirements](#requirements)  
-- [Installation and Use](#installation-and-use)  
-- [Data](#data)  
-- [Acknowledgments](#acknowledgments)  
-- [Citation](#citation)  
-- [License Information](#license-information)  
-
----
-
-## ⚙️ Requirements
-
-To run this project, you need the following dependencies:
+## Requirements
+To run this project, you need the following dependencies (as well as an IDE like VsCode):
 
 - Python ≥ 3.8  
 - [PyTorch](https://pytorch.org/) ≥ 1.10  
@@ -27,11 +19,8 @@ To run this project, you need the following dependencies:
 - tqdm (for progress bars)  
 - Optionally: CUDA-compatible GPU for faster training
 
+## Installation and use
 You can install them via `pip` (see below).
-
----
-
-## 🚀 Installation and Use
 
 Follow these steps to set up and run the project locally.
 
@@ -53,33 +42,28 @@ Install the updated versions of the packages to avoid depency problems.
 pip install torch numpy scipy matplotlib tqdm scipy
 ```
 
-The main programas ar armonic_oscillator_main and armonic_oscillator_advanced. In the first program, which is commented in depth, changing the conditions of the problems, that defines the type of oscillator you want to solve, you can obtain the expected result and save the image. In physics the conditions of the problems determine the problem itself. In the armonic_oscillator_advanced is only taken into account the forced oscillator. The other programms are POCs of other problems which can be examinated and proved too.
-
----
-
-📊 Data
+## Data
 The models in this project are trained on synthetic data generated from analytical expressions of harmonic oscillators.
 These include initial conditions and uniformly sampled time values in a 1D domain.
 No external datasets are required.
 
-📁 If needed, pre-generated .npy files or .csv datasets can be included under a /data/ folder.
+## Acknowledgements
+This research has been performed for the research project <a href="https://aia.ua.es/en/proyectos/federated-serverless-architectures-for-heterogeneous-high-performance-computing-in-smart-manufacturing.html" target="_blank">Federated Serverless Architectures for Heterogeneous High Performance Computing in Smart Manufacturing</a>, at the Applied Intelligent Architectures Research Group of the University of Alicante (Spain).
 
----
+Grant <b>Serverless4HPC PID2023-152804OB-I00</b> funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU.
 
-🙌 Acknowledgments
-This research is associated with the following project:
+## Citation
+```bibtex
+@article{macia-lillo_edge_2025,
+	title = {Edge Cloud service provisioning for Knowledge Management Smart Applications,
+	issn = {2045-2322},
+	journal = {Scientific Reports},
+	author = {Maciá-Lillo, Antonio and Mora, Higinio and Jimeno-Morenilla, Antonio and García-D'Urso, Nahuel E. and Azorín-López Jorge},
+	year = {2025},
+	pages = {1--25},
+	note = {in press},
+}
+```
 
-Federated Serverless Architectures for Heterogeneous High-Performance Computing in Smart Manufacturing
-🔗 View project on AIA Group website
-
----
-
-📄 License Information
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
-See the LICENSE file for details.
-
-🔗 Learn more about the GPL-3.0 License
-
----
-
-Made with ❤️ by David Muñoz Hernández.
+## License Information
+This project is licensed under the <a href="LICENSE.txt">GPL-3 license</a>.
