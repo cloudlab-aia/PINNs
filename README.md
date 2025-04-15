@@ -54,13 +54,13 @@ Grant <b>Serverless4HPC PID2023-152804OB-I00</b> funded by MICIU/AEI/10.13039/50
 
 ## Citation
 ```bibtex
-@article{macia-lillo_edge_2025,
-	title = {Edge Cloud service provisioning for Knowledge Management Smart Applications,
-	issn = {2045-2322},
-	journal = {Scientific Reports},
-	author = {Maciá-Lillo, Antonio and Mora, Higinio and Jimeno-Morenilla, Antonio and García-D'Urso, Nahuel E. and Azorín-López Jorge},
+@article{munoz_david_PINN_2025,
+	title = {Physics-Informed Neural Networks for the Harmonic Oscillator,
+	issn = {},
+	journal = {},
+	author = {e},
 	year = {2025},
-	pages = {1--25},
+	pages = {},
 	note = {in press},
 }
 ```
